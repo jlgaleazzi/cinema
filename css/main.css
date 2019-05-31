@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+{
+	margin:50px 0px;
+	background-color:#FF9933;
+	color:#000;
+	text-align:center;
+}
+
+
+* {
+	margin:0px;
+	padding:0px;	
+}
+
+nav {
+	width:1024px;	
+}
+
+nav ul {
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	width:inherit;	
+}
+
+nav ul li {
+	list-style:none;
+	float:left;
+	text-align:center;
+	width: 100px;
+}
+
+nav ul li a {
+	display:block;
+	text-decoration:none;
+	color:#FFFFFF;
+	padding:10px 0;
+	
+}
+
+
+#wrapper
+{
+	width:920px;
+	margin:0px auto;
+	background-color:#FF9933;
+	padding:15px;
+	border:1px dashed #333;
+	text-align:left;
+	padding:15px;	
+}
+
+
+
+.banner
+{
+	width:920px;
+	height:352px;
+	background:url(../defaultImages/banner.jpg);
+	text-align:justify;	
+}
+
+
+
+.container-pelicula {
+	display:block;
+	overflow:hidden;
+	width:100%;
+	background:#000;
+}
+
+
+.lista-peliculas
+{
+	margin: 0 -30px 20px 0;
+	overflow:auto;
+	list-style:none;
+	display:block;
+	
+}
+
+.thumb {
+	width:164px;
+	height:250px;	
+}
+
+.lista-peliculas .pelicula
+{
+	float:left;
+	margin:0 26px 20px 0;
+	width:164px;
+}
+
+.lista-visual
+{
+	list-style-type:none;
+	display:block;	
+}
+
+.areaTitulo {
+  display:block;
+  padding:10px;
+  background:#FFF;	
+}
+
+.tituloPelicula {
+	paddingL 0 10px 0 0;
+	overflow:hidden;
+	height:46px;
+	
+}
